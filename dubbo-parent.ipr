@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="CodeStyleManager">
+    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true" />
+    <option name="CODE_STYLE_SCHEME" value="" />
+  </component>
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <bytecodeTargetLevel>
+      <module name="dubbo-registry-zookeeper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-zookeeper" charset="UTF-8" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="PRINT_LINE_NUMBERS" value="false" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+    <option name="OUTPUT_DIRECTORY" />
+  </component>
+  <component name="ImportConfiguration">
+    <option name="VENDOR" />
+    <option name="RELEASE_TAG" />
+    <option name="LOG_MESSAGE" />
+    <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="JUnitProjectSettings">
+    <option name="TEST_RUNNER" value="UI" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-registry-zookeeper" options="-proc:none" />
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="false" />
+    <option name="OPTION_NAVIGATOR" value="false" />
+    <option name="OPTION_INDEX" value="false" />
+    <option name="OPTION_SEPARATE_INDEX" value="false" />
+    <option name="OPTION_USE_1_1" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false" />
+    <option name="OPTION_DEPRECATED_LIST" value="false" />
+    <option name="OTHER_OPTIONS" />
+    <option name="HEAP_SIZE" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+  </component>
+  <component name="JikesSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="DEPRECATION" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false" />
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false" />
+    <option name="IS_INCREMENTAL_MODE" value="false" />
+    <option name="IS_EMACS_ERRORS_MODE" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-registry/dubbo-registry-zookeeper/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/all/dubbo.iml" filepath="$PROJECT_DIR$/all/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bom/dubbo-bom.iml" filepath="$PROJECT_DIR$/bom/dubbo-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-bootstrap/dubbo-bootstrap.iml" filepath="$PROJECT_DIR$/dubbo-bootstrap/dubbo-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-cluster/dubbo-cluster.iml" filepath="$PROJECT_DIR$/dubbo-cluster/dubbo-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-common/dubbo-common.iml" filepath="$PROJECT_DIR$/dubbo-common/dubbo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-compatible/dubbo-compatible.iml" filepath="$PROJECT_DIR$/dubbo-compatible/dubbo-compatible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-config/dubbo-config.iml" filepath="$PROJECT_DIR$/dubbo-config/dubbo-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-config/dubbo-config-api/dubbo-config-api.iml" filepath="$PROJECT_DIR$/dubbo-config/dubbo-config-api/dubbo-config-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" filepath="$PROJECT_DIR$/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/dubbo-container-api.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/dubbo-container-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-log4j/dubbo-container-log4j.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-log4j/dubbo-container-log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-logback/dubbo-container-logback.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-logback/dubbo-container-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-spring/dubbo-container-spring.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/dubbo-container-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencies-bom/dubbo-dependencies-bom.iml" filepath="$PROJECT_DIR$/dependencies-bom/dubbo-dependencies-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/dubbo-distribution.iml" filepath="$PROJECT_DIR$/distribution/dubbo-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-metrics/dubbo-metrics.iml" filepath="$PROJECT_DIR$/dubbo-metrics/dubbo-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-metrics/dubbo-metrics-api/dubbo-metrics-api.iml" filepath="$PROJECT_DIR$/dubbo-metrics/dubbo-metrics-api/dubbo-metrics-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-monitor/dubbo-monitor.iml" filepath="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" filepath="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" filepath="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-parent.iml" filepath="$PROJECT_DIR$/dubbo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-plugin/dubbo-plugin.iml" filepath="$PROJECT_DIR$/dubbo-plugin/dubbo-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-plugin/dubbo-qos/dubbo-qos.iml" filepath="$PROJECT_DIR$/dubbo-plugin/dubbo-qos/dubbo-qos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-api/dubbo-registry-api.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-api/dubbo-registry-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-default/dubbo-registry-default.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-default/dubbo-registry-default.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-multicast/dubbo-registry-multicast.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-multicast/dubbo-registry-multicast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-redis/dubbo-registry-redis.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-redis/dubbo-registry-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-zookeeper/dubbo-registry-zookeeper.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-zookeeper/dubbo-registry-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-api/dubbo-remoting-api.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-api/dubbo-remoting-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-grizzly/dubbo-remoting-grizzly.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-grizzly/dubbo-remoting-grizzly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-http/dubbo-remoting-http.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-http/dubbo-remoting-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-mina/dubbo-remoting-mina.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-mina/dubbo-remoting-mina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-netty/dubbo-remoting-netty.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-netty/dubbo-remoting-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-netty4/dubbo-remoting-netty4.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-netty4/dubbo-remoting-netty4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-p2p/dubbo-remoting-p2p.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-p2p/dubbo-remoting-p2p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-zookeeper/dubbo-remoting-zookeeper.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-zookeeper/dubbo-remoting-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-api/dubbo-rpc-api.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-api/dubbo-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-dubbo/dubbo-rpc-dubbo.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-dubbo/dubbo-rpc-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-hessian/dubbo-rpc-hessian.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-hessian/dubbo-rpc-hessian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-http/dubbo-rpc-http.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-http/dubbo-rpc-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-injvm/dubbo-rpc-injvm.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-injvm/dubbo-rpc-injvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-memcached/dubbo-rpc-memcached.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-memcached/dubbo-rpc-memcached.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-redis/dubbo-rpc-redis.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-redis/dubbo-rpc-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-rest/dubbo-rpc-rest.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-rest/dubbo-rpc-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-rmi/dubbo-rpc-rmi.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-rmi/dubbo-rpc-rmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-thrift/dubbo-rpc-thrift.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-thrift/dubbo-rpc-thrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-webservice/dubbo-rpc-webservice.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-webservice/dubbo-rpc-webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-api/dubbo-serialization-api.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-api/dubbo-serialization-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-fastjson/dubbo-serialization-fastjson.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-fastjson/dubbo-serialization-fastjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-fst/dubbo-serialization-fst.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-fst/dubbo-serialization-fst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-hessian2/dubbo-serialization-hessian2.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-hessian2/dubbo-serialization-hessian2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-jdk/dubbo-serialization-jdk.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-jdk/dubbo-serialization-jdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-kryo/dubbo-serialization-kryo.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-kryo/dubbo-serialization-kryo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-test/dubbo-test.iml" filepath="$PROJECT_DIR$/dubbo-test/dubbo-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-test/dubbo-test-compatibility/dubbo-test-compatibility.iml" filepath="$PROJECT_DIR$/dubbo-test/dubbo-test-compatibility/dubbo-test-compatibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-test/dubbo-test-integration/dubbo-test-integration.iml" filepath="$PROJECT_DIR$/dubbo-test/dubbo-test-integration/dubbo-test-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-test/dubbo-test-compatibility/dubbo-test-spring3/dubbo-test-spring3.iml" filepath="$PROJECT_DIR$/dubbo-test/dubbo-test-compatibility/dubbo-test-spring3/dubbo-test-spring3.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="10" project-jdk-type="JavaSDK" />
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: cglib:cglib-nodep:2.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2/cglib-nodep-2.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2/cglib-nodep-2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.101tec:zkclient:0.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.2/zkclient-0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.2/zkclient-0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.2/zkclient-0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.46">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.46/fastjson-1.2.46.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.46/fastjson-1.2.46-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.46/fastjson-1.2.46-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:hessian-lite:3.2.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/hessian-lite/3.2.3/hessian-lite-3.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/hessian-lite/3.2.3/hessian-lite-3.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/hessian-lite/3.2.3/hessian-lite-3.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.cedarsoftware:java-util:1.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/cedarsoftware/java-util/1.9.0/java-util-1.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/cedarsoftware/java-util/1.9.0/java-util-1.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/cedarsoftware/java-util/1.9.0/java-util-1.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.cedarsoftware:json-io:2.5.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/cedarsoftware/json-io/2.5.1/json-io-2.5.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/cedarsoftware/json-io/2.5.1/json-io-2.5.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/cedarsoftware/json-io/2.5.1/json-io-2.5.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.esotericsoftware:kryo:4.0.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/4.0.1/kryo-4.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/4.0.1/kryo-4.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/4.0.1/kryo-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.esotericsoftware:minlog:1.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.esotericsoftware:reflectasm:1.11.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.6">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:guava:16.0.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-logging:commons-logging:1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: de.javakaffee:kryo-serializers:0.42">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/de/javakaffee/kryo-serializers/0.42/kryo-serializers-0.42.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/de/javakaffee/kryo-serializers/0.42/kryo-serializers-0.42-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/de/javakaffee/kryo-serializers/0.42/kryo-serializers-0.42-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: de.ruedigermoeller:fst:2.48-jdk-6">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.48-jdk-6/fst-2.48-jdk-6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.48-jdk-6/fst-2.48-jdk-6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.48-jdk-6/fst-2.48-jdk-6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty:3.10.5.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: jline:jline:0.9.94">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:4.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: log4j:log4j:1.2.16">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.bytebuddy:byte-buddy-agent:1.8.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.8.5/byte-buddy-agent-1.8.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.8.5/byte-buddy-agent-1.8.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.8.5/byte-buddy-agent-1.8.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.bytebuddy:byte-buddy:1.8.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.5/byte-buddy-1.8.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.5/byte-buddy-1.8.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.5/byte-buddy-1.8.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.curator:curator-client:2.12.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.curator:curator-framework:2.12.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.curator:curator-test:2.12.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-cluster:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-cluster/2.7.0-SNAPSHOT/dubbo-cluster-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-cluster/2.7.0-SNAPSHOT/dubbo-cluster-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-cluster/2.7.0-SNAPSHOT/dubbo-cluster-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-common:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.0-SNAPSHOT/dubbo-common-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.0-SNAPSHOT/dubbo-common-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.0-SNAPSHOT/dubbo-common-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-container-api:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-container-api/2.7.0-SNAPSHOT/dubbo-container-api-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-container-api/2.7.0-SNAPSHOT/dubbo-container-api-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-container-api/2.7.0-SNAPSHOT/dubbo-container-api-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-registry-api:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-registry-api/2.7.0-SNAPSHOT/dubbo-registry-api-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-registry-api/2.7.0-SNAPSHOT/dubbo-registry-api-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-registry-api/2.7.0-SNAPSHOT/dubbo-registry-api-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-remoting-api:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-remoting-api/2.7.0-SNAPSHOT/dubbo-remoting-api-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-remoting-api/2.7.0-SNAPSHOT/dubbo-remoting-api-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-remoting-api/2.7.0-SNAPSHOT/dubbo-remoting-api-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-remoting-zookeeper:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-remoting-zookeeper/2.7.0-SNAPSHOT/dubbo-remoting-zookeeper-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-remoting-zookeeper/2.7.0-SNAPSHOT/dubbo-remoting-zookeeper-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-remoting-zookeeper/2.7.0-SNAPSHOT/dubbo-remoting-zookeeper-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-rpc-api:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-rpc-api/2.7.0-SNAPSHOT/dubbo-rpc-api-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-rpc-api/2.7.0-SNAPSHOT/dubbo-rpc-api-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-rpc-api/2.7.0-SNAPSHOT/dubbo-rpc-api-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.dubbo:dubbo-serialization-api:2.7.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-serialization-api/2.7.0-SNAPSHOT/dubbo-serialization-api-2.7.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-serialization-api/2.7.0-SNAPSHOT/dubbo-serialization-api-2.7.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-serialization-api/2.7.0-SNAPSHOT/dubbo-serialization-api-2.7.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.zookeeper:zookeeper:3.4.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest-all:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.javassist:javassist:3.20.0-GA">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mockito:mockito-core:2.18.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.18.3/mockito-core-2.18.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.18.3/mockito-core-2.18.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.18.3/mockito-core-2.18.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.objenesis:objenesis:2.6">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/objenesis-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/objenesis-2.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.ow2.asm:asm:5.0.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.25">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-log4j12:1.6.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>

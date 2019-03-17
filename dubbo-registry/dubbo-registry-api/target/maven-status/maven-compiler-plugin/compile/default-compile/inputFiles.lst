@@ -1,0 +1,14 @@
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/AbstractRegistryFactory.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/ConsumerInvokerWrapper.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/SkipFailbackWrapperException.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/RegistryFactory.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/Registry.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/AbstractRegistry.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/status/RegistryStatusChecker.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/FailbackRegistry.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/ProviderInvokerWrapper.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/RegistryService.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/integration/RegistryProtocol.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/NotifyListener.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/integration/RegistryDirectory.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-registry/dubbo-registry-api/src/main/java/org/apache/dubbo/registry/support/ProviderConsumerRegTable.java

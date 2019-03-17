@@ -1,0 +1,8 @@
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/ObjectOutput.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/Cleanable.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/support/SerializationOptimizer.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/support/SerializableClassRegistry.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/DataInput.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/ObjectInput.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/Serialization.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-api/src/main/java/org/apache/dubbo/common/serialize/DataOutput.java

@@ -1,0 +1,7 @@
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/ProtocolTest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/IEcho.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/Type.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/InjvmProtocolTest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/DemoRequest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/DemoService.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-rpc/dubbo-rpc-injvm/src/test/java/org/apache/dubbo/rpc/protocol/injvm/DemoServiceImpl.java

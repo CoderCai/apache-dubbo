@@ -1,0 +1,17 @@
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/serialize/serialization/AbstractSerializationTest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/person/BigPerson.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/serialize/serialization/Hessian2SerializationTest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/BizExceptionNoDefaultConstructor.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/serialize/serialization/AbstractSerializationPersionFailTest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/SerializablePerson.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/Person.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/AnimalEnum.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/BizException.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/person/FullAddress.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/person/PersonInfo.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/media/Image.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/media/Media.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/serialize/serialization/AbstractSerializationPersionOkTest.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/person/PersonStatus.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/media/MediaContent.java
+/Users/xiechanghong/Code/apache-dubbo/dubbo-serialization/dubbo-serialization-hessian2/src/test/java/org/apache/dubbo/common/model/person/Phone.java
