@@ -57,6 +57,7 @@ public class NettyClient extends AbstractClient {
 
     @Override
     protected void doOpen() throws Throwable {
+        //客户端的处理逻辑在这里
         final NettyClientHandler nettyClientHandler = new NettyClientHandler(getUrl(), this);
         bootstrap = new Bootstrap();
         bootstrap.group(nioEventLoopGroup)

@@ -31,6 +31,7 @@ import javax.sound.midi.Receiver;
  *
  * @see org.apache.dubbo.remoting.Transporters
  */
+//SPI默认指定了Transporter为Netty
 @SPI("netty")
 public interface Transporter {
 
@@ -43,6 +44,7 @@ public interface Transporter {
      * @throws RemotingException
      * @see org.apache.dubbo.remoting.Transporters#bind(URL, Receiver, ChannelHandler)
      */
+    //服务端
     @Adaptive({Constants.SERVER_KEY, Constants.TRANSPORTER_KEY})
     Server bind(URL url, ChannelHandler handler) throws RemotingException;
 
@@ -55,6 +57,7 @@ public interface Transporter {
      * @throws RemotingException
      * @see org.apache.dubbo.remoting.Transporters#connect(URL, Receiver, ChannelListener)
      */
+    //客户端
     @Adaptive({Constants.CLIENT_KEY, Constants.TRANSPORTER_KEY})
     Client connect(URL url, ChannelHandler handler) throws RemotingException;
 
