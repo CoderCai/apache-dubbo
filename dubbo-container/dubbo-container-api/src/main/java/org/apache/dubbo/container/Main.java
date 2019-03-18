@@ -31,6 +31,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 启动类，当不依赖Spring时可以直接用于启动Dubbo
  * Main. (API, Static, ThreadSafe)
  */
 public class Main {
