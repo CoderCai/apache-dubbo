@@ -161,6 +161,7 @@ public class ReferenceConfig<T> extends AbstractReferenceConfig {
         if (destroyed) {
             throw new IllegalStateException("Already destroyed!");
         }
+        //获取引用时，开始初始化各种配置数据，即消费者端的配置数据
         if (ref == null) {
             init();
         }
