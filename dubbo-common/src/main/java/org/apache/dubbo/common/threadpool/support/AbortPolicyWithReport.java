@@ -62,6 +62,7 @@ public class AbortPolicyWithReport extends ThreadPoolExecutor.AbortPolicy {
                 e.getTaskCount(), e.getCompletedTaskCount(), e.isShutdown(), e.isTerminated(), e.isTerminating(),
                 url.getProtocol(), url.getIp(), url.getPort());
         logger.warn(msg);
+        //dump当前的JVM栈信息到本地
         dumpJStack();
         throw new RejectedExecutionException(msg);
     }
