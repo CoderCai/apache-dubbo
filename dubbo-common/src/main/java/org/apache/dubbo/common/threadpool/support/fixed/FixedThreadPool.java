@@ -35,6 +35,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class FixedThreadPool implements ThreadPool {
 
+    //仅仅是的对java原生的线程池
     @Override
     public Executor getExecutor(URL url) {
         String name = url.getParameter(Constants.THREAD_NAME_KEY, Constants.DEFAULT_THREAD_NAME);
