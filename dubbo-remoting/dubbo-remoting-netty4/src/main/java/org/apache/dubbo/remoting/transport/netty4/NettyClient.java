@@ -40,6 +40,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * NettyClient.
+ * 客户端
  */
 public class NettyClient extends AbstractClient {
 
