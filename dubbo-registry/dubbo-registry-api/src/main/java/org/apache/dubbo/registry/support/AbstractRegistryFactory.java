@@ -40,6 +40,7 @@ public abstract class AbstractRegistryFactory implements RegistryFactory {
     // Log output
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractRegistryFactory.class);
 
+    // TODO REGISTRIES本身已经是线程安全的，为什么还要LOCK来同步对它的访问？
     // The lock for the acquisition process of the registry
     private static final ReentrantLock LOCK = new ReentrantLock();
 
