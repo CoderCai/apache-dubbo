@@ -90,7 +90,9 @@ public abstract class AbstractRegistry implements Registry {
             }
         }
         this.file = file;
+        //加载本地缓存文件，缓存的是订阅信息
         loadProperties();
+        //触发监听器，通知URL的变化情况
         notify(url.getBackupUrls());
     }
 
@@ -156,6 +158,7 @@ public abstract class AbstractRegistry implements Registry {
             try {
                 FileChannel channel = raf.getChannel();
                 try {
+                    //获取文件锁，写入数据
                     FileLock lock = channel.tryLock();
                     if (lock == null) {
                         throw new IOException("Can not lock the registry cache file " + file.getAbsolutePath() + ", ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties");
